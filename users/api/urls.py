@@ -12,7 +12,7 @@ from .views import (
 )
 
 from .permissions import IsRHUser, IsCandidatUser, IsEmployeUser
-
+from . import views
 urlpatterns = [
     path('signup/rh/', RhSignupView.as_view(), name='signup_rh'),
     path('signup/employe/', EmployeSignupView.as_view(), name='signup_employe'),
