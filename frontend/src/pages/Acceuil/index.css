@@ -1,0 +1,106 @@
+/* index.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .navbar {
+    background-color: #343a40;
+    padding: 10px 0;
+  }
+  
+  .navbar .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .carousel-item {
+    height: 400px;
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  .job-listing {
+    margin-top: 40px;
+  }
+  
+  .job-listing h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .job-card {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .job-card .job-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .job-card .job-description {
+    font-size: 1rem;
+  }
+  
+  .job-card .apply-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .job-card .apply-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Ajoutez un style personnalisé pour les éléments de la liste d'emplois */
+
+.job-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.job-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.job-item img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 8px;
+}
+
+.job-item .text-start {
+    padding-left: 20px;
+}
+
+.job-item .btn-primary {
+    margin-top: 10px;
+}
+
+.job-item .text-truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
